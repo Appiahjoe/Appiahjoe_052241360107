@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Welcome to Faculty of Applied Sciences and Technology</h1>
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+ 
+                <p>
+                    <label>
+                        Salutation
+                        <br />
+                        <select name="salutation">
+                            <option>--None--</option>
+                            <option>Mr.</option>
+                            <option>Ms.</option>
+                            <option>Mrs.</option>
+                            <option>Dr.</option>
+                            <option>Prof.</option>
+                        </select>
+                    </label>
+                </p>
+ 
+                <p>
+                    <label>First name: 
+                      <input name="firstName" />
+                      </label>
+                </p>
+ 
+                <p>
+                    <label>Last name: 
+                      <input name="lastName" />
+                      </label>
+                </p>
+                <p>
+                    <label>Faculty: 
+                      <input name="faculty" />
+                      </label>
+                </p>
+                <p>
+                    <label>Department: 
+                      <input name="Department" />
+                      </label>
+                </p>
+ 
+                <p>
+                    Gender :
+                    <label><input type="radio"
+                                  name="gender" value="male" />
+                        Male
+                    </label>
+                    <label><input type="radio"
+                                  name="gender" value="female" />
+                        Female
+                    </label>
+                <p>
+                    <label>Email:
+                        <input type="email" name="email" />
+                    </label>
+                </p>
+                
+                <label>Telephone number:
+                    <input type="telephone number" name="phone-number" />
+                </label>
+            </p>
+ 
+                <p>
+                    <label>Date of Birth:
+                      <input type="date" name="birthDate">
+                    </label>
+                </p>
+ 
+                <p>
+                    <label>
+                        Address :
+                        <br />
+                        <textarea name="address"
+                                  cols="30" rows="3">
+                          </textarea>
+                    </label>
+                </p>
+ 
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+ 
+            </fieldset>
+    </div>
+</body>
+</html>
